@@ -4,11 +4,9 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   letter-spacing: -0.5px;
-  background-color: #ffffff;
 }
 /* */
 .header {
-  margin-bottom: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +28,7 @@ button#get {
   margin-top: 10px;
   border-radius: 20vh;
   background-color: #191919;
-  color: wheat;
+  color: #fefbf5;
 }
 /*list nav */
 .nav a {
@@ -49,21 +47,21 @@ button#get {
   width: 100%;
   justify-content: space-around;
 }
-h1,
-p {
+.herop {
+  color: #191919;
   margin-top: -50px;
   font-size: 18px;
 }
 /* section h1 e p d.acceuille */
 .stay {
 }
-h5 {
+
+.trdng {
   padding-left: 9.5%;
   font-size: 10px;
   margin-top: 3rem;
   margin-bottom: -4rem;
 }
-
 svg {
   flex-basis: auto;
   width: 100%;
@@ -72,15 +70,21 @@ svg {
 }
 /*  boutoun d'acceuil*/
 .str {
-  padding: 10px 20px;
+  padding: 10px 50px;
   background-color: #191919;
-  color: wheat;
+  color: #fefbf5;
   border: none;
   cursor: pointer;
-  margin-top: 10px;
-  border-radius: 20vh;
+  margin-top: 5px;
+  font-size: 1rem;
+  border-radius: 3vh;
 }
 /* */
+.ln1 {
+  line-height: 1px;
+  position: flex;
+  background-color: #191919;
+}
 /* */
 .content {
   margin-left: 55px;
@@ -129,9 +133,6 @@ svg {
   height: 150px;
 }
 
-.text2 {
-}
-
 .article2 h2 {
   font-family: "roboto", sans-serif;
   font-size: bold;
@@ -169,7 +170,7 @@ p {
 .bmark {
   display: inline-flex;
 }
-button,
+
 .btn2 {
   background-color: #f4f4f4;
   color: #877475;
@@ -183,14 +184,6 @@ aside {
   font-family: "Roboto", sans-serif;
 }
 /* */
-
-.disco button,
-.ultimib button {
-  border: none;
-  cursor: pointer;
-  background-color: #ffc017;
-  color: #191919;
-}
 
 .bmark {
   display: flex;
@@ -208,7 +201,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: "Spectral", serif;
   color: #191919;
@@ -220,9 +212,7 @@ h1 {
   letter-spacing: -5px;
   font-weight: 400;
 }
-h5 {
-  font-size: 10px;
-}
+
 li {
   color: #191919;
   font-family: "Roboto", sans-serif;
@@ -255,6 +245,45 @@ p {
   height: auto;
   border-radius: 15px;
   margin-right: 10px;
+}
+.disco2 button {
+  font-size: 1rem;
+  height: 35px;
+  margin: 5px;
+  cursor: pointer;
+  color: #7c8387;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #f4f4f4;
+}
+
+.ultimib button {
+  margin: 3px;
+  height: 35px;
+  color: #7c8387;
+  font-size: 1rem;
+  border: none;
+  background-color: #ffffff;
+}
+
+.disco1 {
+  display: flexbox;
+  float: right;
+}
+.linea {
+  margin-right: 130px;
+}
+
+.disco2 {
+  margin-right: 190px;
+  margin-top: -261%;
+  line-height: 4vh;
+  width: 100%;
+  height: auto;
+  display: flexbox;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
 }
 /* */
 .footer {
