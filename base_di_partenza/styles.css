@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.5px;
+  background-color: #ffffff;
+}
+/* */
+.header {
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffc017;
+  color: #191919;
+}
+
+.logo {
+  width: auto;
+  padding-left: 6%;
+}
+/* bouton started */
+button#get {
+  margin-right: 50px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 20vh;
+  background-color: #191919;
+  color: wheat;
+}
+/*list nav */
+.nav a {
+  color: #191919;
+  text-decoration: none;
+  margin: 0 10px;
+}
+/* section aceuille*/
+.home {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.693);
+  padding: 0;
+  background-color: #ffc017;
+  color: #191919;
+  display: inline-flex;
+  height: 300px;
+  width: 100%;
+  justify-content: space-around;
+}
+h1,
+p {
+  margin-top: -50px;
+  font-size: 18px;
+}
+/* section h1 e p d.acceuille */
+.stay {
+}
+h5 {
+  padding-left: 6%;
+  font-size: 10px;
+  margin-top: 3rem;
+  margin-bottom: -4rem;
+}
+
+svg {
+  flex-basis: auto;
+  width: 100%;
+  height: 300px;
+  padding-left: 150px;
+}
+/*  boutoun d'acceuil*/
+.str {
+  padding: 10px 20px;
+  background-color: #191919;
+  color: wheat;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 20vh;
+}
+/* */
+/* */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6%;
+  margin-bottom: -70px;
+}
+/* */
+.article {
+  font-size: 0.9rem;
+  justify-items: left;
+  flex: 3 3 29.5%;
+  margin: 10px;
+  padding: -5px;
+}
+.article h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  font-family: "roboto", sans-serif;
+  font-size: bold;
+}
+.article > p {
+  color: #877475;
+  font-family: "spectral", serif;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+/* pagina seconda p1*/
+
+/* */
+.container2 {
+  display: flex;
+  background-color: #ffc017;
+  flex-direction: column;
+}
+/* */
+.article2 {
+  background-color: wheat;
+  margin: 2px;
+}
+.article2 h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  font-family: "roboto", sans-serif;
+  font-size: bold;
+}
+.article2 > p {
+  color: #877475;
+  font-family: "spectral", serif;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.profil2 {
+  border-radius: 20px;
+}
+
+.im2 {
+  width: 10%;
+  height: auto;
+}
+.stela2 {
+  margin-top: 1px;
+  margin-left: 2px;
+}
+button,
+.btn2 {
+  border: none;
+  cursor: pointer;
+  border-radius: 10vh;
+  background-color: gray;
+  color: wheat;
+}
+
+/* fine p1 2cda pagina */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Spectral", serif;
+  color: #191919;
+}
+h1 {
+  margin-top: 30px;
+  font-size: 80px;
+  line-height: 1.2;
+  letter-spacing: -5px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 10px;
+}
+li {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  font-weight: bold;
+}
+p {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.in {
+  color: #73768d;
+}
+.stela {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+/* */
+.numero {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #e6e6e6;
+  margin-right: 1.5px;
+}
+/* */
+.profil {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+/* */
+.disco {
+}
+
+aside {
+  font-family: "Roboto", sans-serif;
+}
+/* */
+.ultimib {
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
