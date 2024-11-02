@@ -19,7 +19,7 @@ body {
 
 .logo {
   width: auto;
-  padding-left: 6%;
+  padding-left: 9%;
 }
 /* bouton started */
 button#get {
@@ -58,7 +58,7 @@ p {
 .stay {
 }
 h5 {
-  padding-left: 6%;
+  padding-left: 9.5%;
   font-size: 10px;
   margin-top: 3rem;
   margin-bottom: -4rem;
@@ -83,6 +83,7 @@ svg {
 /* */
 /* */
 .content {
+  margin-left: 55px;
   display: flex;
   flex-wrap: wrap;
   padding: 6%;
@@ -114,46 +115,86 @@ svg {
 /* */
 .container2 {
   display: flex;
-  background-color: #ffc017;
   flex-direction: column;
+  margin-left: 40px;
 }
 /* */
 .article2 {
-  background-color: wheat;
-  margin: 2px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  margin: 50px;
+  width: 50%;
+  height: auto;
 }
+
+.text2 {
+}
+
 .article2 h2 {
-  font-size: 1.2em;
-  margin: 10px 0;
   font-family: "roboto", sans-serif;
   font-size: bold;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 15px;
 }
-.article2 > p {
+.article2,
+p {
+  margin-top: 2px;
   color: #877475;
   font-family: "spectral", serif;
-  margin: 5px 0;
   font-size: 15px;
 }
 
 .profil2 {
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .im2 {
-  width: 10%;
+  width: 30%;
   height: auto;
 }
 .stela2 {
   margin-top: 1px;
   margin-left: 2px;
+  display: inline-flex;
+}
+.bmark {
+  display: inline-flex;
 }
 button,
 .btn2 {
+  background-color: #f4f4f4;
+  color: #e6e6e6;
   border: none;
   cursor: pointer;
-  border-radius: 10vh;
-  background-color: gray;
-  color: wheat;
+  display: inline-flex;
+}
+
+aside {
+  font-family: "Roboto", sans-serif;
+}
+/* */
+
+.disco button,
+.ultimib button {
+  border: none;
+  cursor: pointer;
+  background-color: #ffc017;
+  color: #191919;
+}
+
+.btn2,
+.stela2,
+.bmark {
+}
+
+.bmark {
+}
+
+.btn2 {
+  color: #191919;
+  background-color: #ffc017;
 }
 
 /* fine p1 2cda pagina */
@@ -207,16 +248,6 @@ p {
   margin-right: 10px;
 }
 /* */
-.disco {
-}
-
-aside {
-  font-family: "Roboto", sans-serif;
-}
-/* */
-.ultimib {
-}
-
 .footer {
   text-align: center;
   padding: 10px 20px;
